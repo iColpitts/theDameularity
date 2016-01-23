@@ -72,9 +72,11 @@ Mac
 
 `sudo easy_install pip #if not already installed`
 
-`pip install virtualenv`
+`sudo pip install virtualenv`
 
-`pip install tweepy`
+`sudo pip install tweepy' 
+(if on El-Capitan `sudo pip install tweepy --ignored-install`)
+
 
 ###Things we need to download:
 
