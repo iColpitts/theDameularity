@@ -71,7 +71,9 @@ OR
 Mac
 
 ```sudo easy_install pip #if not already installed
+
 pip install virtualenv
+
 pip install tweepy```
 
 ###Things we need to download:
