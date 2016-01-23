@@ -1,5 +1,5 @@
 # theDameularity
-Twitterbot workshop appropriated from lee2sman Replace Yourself with a Twitterbot workshop at ITPcamp 2015: https://github.com/lee2sman/ITPCampSessionNotes/blob/master/ReplaceYourselfWithABot.md
+Twitterbot workshop appropriated from lee2sman Replace Yourself with a Twitterbot workshop at ITPcamp 2015: (https://github.com/lee2sman/ITPCampSessionNotes/blob/master/ReplaceYourselfWithABot.md)
 
 To cover:
 
@@ -64,14 +64,15 @@ Options to think about...
 ##
 
 Linux
-sudo apt-get install python-pip
+
+`sudo apt-get install python-pip`
+
 OR
 Mac
 
-sudo easy_install pip #if not already installed
+```sudo easy_install pip #if not already installed
 pip install virtualenv
-
-pip install tweepy
+pip install tweepy```
 
 ###Things we need to download:
 
