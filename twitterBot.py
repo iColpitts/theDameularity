@@ -18,7 +18,7 @@ except IOError:
 toSearch = True
 while True:
     current_time = datetime.datetime.now()
-    if current_time.minute % 15 == 00:
+    if current_time.minute % 05 == 00:
         if toSearch == True:
             # search query
             timelineIterator = tweepy.Cursor(api.search, q="#theDameularity", since_id=lastID, lang="").items()
