@@ -124,5 +124,4 @@ for example
 - Install pip on digitalocean server to root
 ```apt-get update
 sudo apt-get install python-pip
-pip install tweepy
-```
+pip install tweepy```
