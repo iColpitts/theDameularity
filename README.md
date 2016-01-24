@@ -122,6 +122,6 @@ for example
 
 - We'll be installing tweepy to access twitter in Python
 - Install pip on digitalocean server to root
-```apt-get update
-sudo apt-get install python-pip
+```apt-get update \n
+sudo apt-get install python-pip \n
 pip install tweepy```
