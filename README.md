@@ -127,3 +127,17 @@ apt-get update
 sudo apt-get install python-pip
 pip install tweepy
 ```
+
+#On Server
+Continuously run script 
+'nohup python twitterBot.py'
+
+##start script on server reboot
+- open file '/etc/rc.local'
+- with command:
+- 'sudo nano /etc/rc.local'
+- add commands to start running python script above 'exit 0'
+`nohup python /home/user/twitterbotfolder/twitterNot.py &`
+- ^O to save
+- ^X to exit
+
