@@ -90,3 +90,38 @@ Mac
 - Beginning Segments *.txt
 - End Segments *.txt
 - TwitterKeys *.py
+
+#Create your python bot
+- Example script such as scriptname.py
+- Add your access tokens and keys
+- Test it in your terminal with python scriptname.py
+
+#Sign up on digital ocean
+- DigitalOcean is a virtual private server
+- You create droplets aka virtual (cloud) servers
+- Sign up for an Ubuntu server
+- You will be emailed an ip address, etc, prompted to change emails
+
+#Log in
+##Login via ssh 
+Steps are here https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04
+
+##Connect to your server via ssh
+Steps are here https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh
+
+Upload Your Script
+You can upload to your server with scp
+`scp <path/to/file/on/your/computer> <username>@<hostname>:<destination path>`
+
+for example
+
+`scp /Users/2sman/Documents/code/github\ projects/Gamelan_Ebooks/gamelan* admin@45.55.87.237:~`
+
+#Re-install what you need on remote
+##Getting started With twitter in Python
+
+- We'll be installing tweepy to access twitter in Python
+- Install pip on digitalocean server to root
+```apt-get update
+sudo apt-get install python-pip
+pip install tweepy```
